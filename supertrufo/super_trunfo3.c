@@ -3,17 +3,19 @@
 int main()
 {
     // primeira carta
-    char nomeC[12]; // NomeC para o numero da carta
-    char nome[20];  // Nome para o nome do Estado
+    char nomeC[12]; // NomeC para o codigo da carta
+    char nome[12];  //Estado
     char nome2[20]; // Nome2 para o nome da cidade
+    char Codigo1[12] = "A01";
     int população;
     float Area;
     float PIB;
     int pontosturisticos;
 
     // segunda carta
-    char carta2[12];// numero da carta
-    char nome3[20];  // nome Estado
+    char carta2[12];// codigo da carta
+    char Codigo2[12] = "A02";
+    char nome3[12];  //  Estado
     char nomeCi[20]; // nome Cidade
     int população2;
     float Area2;
@@ -31,6 +33,11 @@ int main()
     printf("qual o nome do Estado?:");
     scanf("%s", &nome);
     printf("O Estado é: %s\n", nome);
+
+    //Código
+    printf("Código:");
+    scanf("%s", &Codigo1 );
+    printf("Código: %s\n", Codigo1);
 
     // Cidade
     printf("Qual a Cidade?");
@@ -71,6 +78,11 @@ int main()
     scanf("%s", &nome3);
     printf("O Estado é: %s\n", nome3);
           
+            //Código
+    printf("Código:");
+    scanf("%s", &Codigo2 );
+    printf("Código: %s\n", Codigo2);
+
            //Cidade
     printf("qual o nome da cidade?:");
     scanf("%s", &nomeCi);
