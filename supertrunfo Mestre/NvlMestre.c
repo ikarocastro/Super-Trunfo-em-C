@@ -5,13 +5,13 @@ int main() {
     char estado1, estado2;
     char  codigo1[12], codigo2[12];
     char cidade1[20], cidade2[20];
-    unsigned long int populacao1, populacao2;
+    unsigned long int populacao1, populacao2; //Trocamos int por unsigned long int para suportar populações maiores
     float area1, area2;
     float pib1, pib2;
     int pontosturisticos1, pontosturisticos2;
     float densidadepopulacional1, densidadepopulacional2;
     float pibpercapita1, pibpercapita2;
-    float Superpoder1, Superpoder2;
+    float Superpoder1, Superpoder2; //Adicionamos o SuperPoder como um atributo das cartas
 
     printf("qual seu Estado?:");
     scanf(" %c", &estado1);
@@ -47,8 +47,9 @@ int main() {
         printf("Pontos Turísticos: %d\n", pontosturisticos1);
         printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional1);
         printf("PIB per Capita: %.2f Bilhões\n", pibpercapita1);
-        printf("SuperPoder da carta 1 %f\n:", populacao1 + area1 + pib1 + pontosturisticos1);
+        printf("SuperPoder da carta 1: %.2f\n", populacao1 + area1 + pib1 + pontosturisticos1 + pibpercapita1 - densidadepopulacional1);
     
+        //parei nessa parte do codigo tentando resolver a parte da densidade populacional inversa
 
         //Carta 1 finalizada
 
