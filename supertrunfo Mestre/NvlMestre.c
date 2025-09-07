@@ -90,7 +90,18 @@ int main() {                                //ALterações 03/09/2024
     printf("SuperPoder da carta 2: %.2f\n", Superpoder2);    
     //Exibição dos dados da carta 2 no terminal
 
-  
+        printf("\n=== Comparações ===\n");
+   
+        // Comparações
+    printf("\n=== Resultados ===\n");
+    printf("Populacao: %d\n", populacao1 > populacao2); // maior vence
+    printf("Area: %d\n", area1 > area2);                 // maior vence
+    printf("PIB: %d\n", pib1 > pib2);                     // maior vence
+    printf("Pontos Turisticos: %d\n", pontosturisticos1 > pontosturisticos2); // maior vence
+    printf("PIB per Capita: %d\n", pibpercapita1 > pibpercapita2); // maior vence
+    printf("Densidade Populacional: %d\n", densidadepopulacional1 < densidadepopulacional2);   // menor vence
+    printf("Super Poder: %d\n", Superpoder1 > Superpoder2);          // maior vence
+
     return 0;  
 
 }
