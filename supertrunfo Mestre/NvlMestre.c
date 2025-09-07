@@ -92,6 +92,8 @@ int main() {                                //ALterações 03/09/2024
 
         printf("\n=== Comparações ===\n");
    
+                                                                        //Obs modificar as comparações para depois
+
         // Comparações
     printf("\n=== Resultados ===\n");
     printf("Populacao: %d\n", populacao1 > populacao2); // maior vence
