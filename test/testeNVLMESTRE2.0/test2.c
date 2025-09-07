@@ -106,7 +106,11 @@ int main() {                                //ALterações 08/09/2024
         
                 printf("\n=== Comparações ===\n");
 
-printf("%s\n", (populacao1 > populacao2) ? "Carta 1 venceu em População!" : 
+
+
+                //Obs adicionar variaveis depois na frente dos especificadores
+                
+printf("Populção :%s\n", (populacao1 > populacao2) ? "Carta 1 venceu em População!" : 
                (populacao2 > populacao1) ? "Carta 2 venceu em População!" :
                                            "Empate em População!");
 
