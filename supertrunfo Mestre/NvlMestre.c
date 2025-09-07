@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {                                //ALterações 03/09/2024
+int main() {                                //ALterações 07/09/2024
 
     char estado1, estado2;
     char  codigo1[12], codigo2[12];
@@ -100,9 +100,9 @@ int main() {                                //ALterações 03/09/2024
     printf("Area: %d\n", area1 > area2);                 // maior vence
     printf("PIB: %d\n", pib1 > pib2);                     // maior vence
     printf("Pontos Turisticos: %d\n", pontosturisticos1 > pontosturisticos2); // maior vence
-    printf("PIB per Capita: %d\n", pibpercapita1 > pibpercapita2); // maior vence
-    printf("Densidade Populacional: %d\n", densidadepopulacional1 < densidadepopulacional2);   // menor vence
-    printf("Super Poder: %d\n", Superpoder1 > Superpoder2);          // maior vence
+    printf("PIB per Capita: %f\n", pibpercapita1 > pibpercapita2); // maior vence
+    printf("Densidade Populacional: %f\n", densidadepopulacional1 < densidadepopulacional2);   // menor vence
+    printf("Super Poder: %f\n", Superpoder1 > Superpoder2);          // maior vence
 
     return 0;  
 
