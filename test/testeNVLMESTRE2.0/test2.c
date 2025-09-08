@@ -110,7 +110,7 @@ int main() {                                //ALterações 09/09/2024
 
                 //Obs adicionar variaveis depois na frente dos especificadores
                 
-printf("Populção: %s\n", (populacao1 > populacao2) ? "Carta 1 venceu!" : 
+printf("Populção: %s\n", (populacao1 > populacao2) ? "Carta 1 venceu!" :
                (populacao2 > populacao1) ? "Carta 2 venceu!" :
                                            "Empate em População!");
 
