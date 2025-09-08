@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {                                //ALterações 08/09/2024
+int main() {                                //ALterações 09/09/2024
 
     char estado1, estado2;
     char  codigo1[12], codigo2[12];
@@ -104,39 +104,39 @@ int main() {                                //ALterações 08/09/2024
                 // Comparações
                 // 2 = Carta 2 vence
         
-                printf("\n=== Comparações ===\n");
+            
 
 
 
                 //Obs adicionar variaveis depois na frente dos especificadores
                 
-printf("Populção: %s\n", (populacao1 > populacao2) ? "Carta 1 venceu em População!" : 
-               (populacao2 > populacao1) ? "Carta 2 venceu em População!" :
+printf("Populção: %s\n", (populacao1 > populacao2) ? "Carta 1 venceu!" : 
+               (populacao2 > populacao1) ? "Carta 2 venceu!" :
                                            "Empate em População!");
 
-printf("Area: %s\n", (area1 > area2) ? "Carta 1 venceu em Área!" :
-               (area2 > area1) ? "Carta 2 venceu em Área!" :
+printf("Area: %s\n", (area1 > area2) ? "Carta 1 venceu!" :
+               (area2 > area1) ? "Carta 2 venceu!" :
                                  "Empate em Área!");
 
-printf("Pib: %s\n", (pib1 > pib2) ? "Carta 1 venceu em PIB!" :
-               (pib2 > pib1) ? "Carta 2 venceu em PIB!" :
+printf("Pib: %s\n", (pib1 > pib2) ? "Carta 1 venceu!" :
+               (pib2 > pib1) ? "Carta 2 venceu !" :
                                "Empate em PIB!");
 
-printf("Pontos Turisticos: %s\n", (pontosturisticos1 > pontosturisticos2) ? "Carta 1 venceu em Pontos Turísticos!" :
-               (pontosturisticos2 > pontosturisticos1) ? "Carta 2 venceu em Pontos Turísticos!" :
+printf("Pontos Turisticos: %s\n", (pontosturisticos1 > pontosturisticos2) ? "Carta 1 venceu!" :
+               (pontosturisticos2 > pontosturisticos1) ? "Carta 2 venceu!" :
                                                         "Empate em Pontos Turísticos!");
 
-printf("Pib per Capita: %s\n", (pibpercapita1 > pibpercapita2) ? "Carta 1 venceu em PIB per Capita!" :
-               (pibpercapita2 > pibpercapita1) ? "Carta 2 venceu em PIB per Capita!" :
+printf("Pib per Capita: %s\n", (pibpercapita1 > pibpercapita2) ? "Carta 1 venceu!" :
+               (pibpercapita2 > pibpercapita1) ? "Carta 2 venceu!" :
                                                  "Empate em PIB per Capita!");
 
 // Densidade populacional (menor vence)
-printf("Densidade Populaconal: %s\n", (densidadepopulacional1 < densidadepopulacional2) ? "Carta 1 venceu em Densidade Populacional!" :
-               (densidadepopulacional2 < densidadepopulacional1) ? "Carta 2 venceu em Densidade Populacional!"  :
+printf("Densidade Populaconal: %s\n", (densidadepopulacional1 < densidadepopulacional2) ? "Carta 1 venceu!" :
+               (densidadepopulacional2 < densidadepopulacional1) ? "Carta 2 venceu!"  :
                                                                   "Empate em Densidade Populacional!");
 
-printf("Super Poder: %s\n", (Superpoder1 > Superpoder2) ? "Carta 1 venceu em Super Poder!" : 
-               (Superpoder2 > Superpoder1) ? "Carta 2 venceu em Super Poder!" :
+printf("Super Poder: %s\n", (Superpoder1 > Superpoder2) ? "Carta 1 venceu!" : 
+               (Superpoder2 > Superpoder1) ? "Carta 2 venceu !" :
                                              "Empate em Super Poder!");
   
     return 0;  
