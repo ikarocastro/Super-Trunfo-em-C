@@ -11,6 +11,8 @@ int main() {
 
     //Entrada e Saida de dados da carta 1
     
+              printf("\n=== Carta 1 ===\n"); 
+              
     printf("qual seu Estado?:");
     scanf("%c", &estado1);
     printf("qual sua Cidade?:");
@@ -40,6 +42,7 @@ int main() {
 
         //Carta 1 finalizada
     
+         printf("\n=== Carta 2 ===\n");
     //Entrada e Saida de dados da carta 2
 
     printf("Qual seu Estado?:");
