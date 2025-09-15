@@ -31,6 +31,8 @@ int main() {                                //ALterações 09/09/2024
     printf("qual seus Pontos Turísticos?:");
     scanf("%d", &pontosturisticos1);
  
+                //Calculos Carta 1
+                
     densidadepopulacional1 = populacao1 / area1;
     pibpercapita1 = pib1 / populacao1;                                                   //Adicionei novos calculos
     Superpoder1 = populacao1 + area1 + pontosturisticos1 +
@@ -45,11 +47,11 @@ int main() {                                //ALterações 09/09/2024
         printf("Cidade: %s\n", cidade1);
         printf("Código: %s\n", codigo1);
         printf("População: %lu\n", populacao1);         //Troquei o %d por %lu
-        printf("Área : %.2f \n", area1);
+        printf("Área : %.2f km²\n", area1);
         printf("PIB: %.2f\n", pib1);
         printf("Pontos Turísticos: %d\n", pontosturisticos1);
         printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional1);
-        printf("PIB per Capita: %.2f\n", pibpercapita1);
+        printf("PIB per Capita: %.2f Bilhões de reais\n", pibpercapita1);
         printf("SuperPoder da carta 1: %.2f\n", Superpoder1);                               //modifiquei essa linha
     
 
@@ -85,11 +87,11 @@ int main() {                                //ALterações 09/09/2024
     printf("Cidade: %s\n", cidade2);
     printf("Código: %s\n", codigo2);
     printf("População: %lu\n", populacao2);         //Troquei o %d por %lu
-    printf("Área: %.2f\n", area2);
+    printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f\n", pib2);
     printf("Pontos Turísticos: %d\n", pontosturisticos2);
     printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional2);
-    printf("PIB per Capita: %.2f\n", pibpercapita2);
+    printf("PIB per Capita: %.2f Bilhões de reais\n", pibpercapita2);
     printf("SuperPoder da carta 2: %.2f\n", Superpoder2);    
     //Exibição dos dados da carta 2 no terminal
 
