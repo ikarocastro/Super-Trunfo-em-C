@@ -138,17 +138,24 @@ printf("Densidade Populaconal: %s\n", (densidadepopulacional1 < densidadepopulac
 
 printf("Super Poder: %s\n", (Superpoder1 > Superpoder2) ? "Carta 1 venceu!" : 
                (Superpoder2 > Superpoder1) ? "Carta 2 venceu !" :
-                                             "Empate em Super Poder!");
+                                             "Empate em Super Poder!\n");
   
 
+        //Comparação de cartas (Atributo: População")
 
+                printf("\n===== Comparando Atributos ===\n");
 
+  
+  printf("Carta 1: Estado %s : %lu população\n", cidade1, populacao1); 
+  printf("Carta 2: Estado %s : %lu população\n", cidade2, populacao2); 
 
-
-
-
-
-
+    if (populacao1 > populacao2)
+    {
+        printf("Carta 1 (%s) venceu!", cidade1);
+    }
+    else{
+        printf("Carta 2 (%s) venceu!", cidade2);
+    }
 
 
 
