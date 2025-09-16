@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){                                        //Alterações 15/09/25
+int main(){                                        //Alterações 16/09/25
 
     //entrada de variaveis!
 
@@ -143,7 +143,7 @@ printf("Super Poder: %s\n", (Superpoder1 > Superpoder2) ? "Carta 1 venceu!" :
 
         //Comparação de cartas (Atributo: População")
 
-                printf("\n===== Comparando Atributos ===\n");
+                printf("\n===== Comparando Atributos(Atributo: População): ===\n");
 
   
   printf("Carta 1: Estado %s : %lu população\n", cidade1, populacao1); 
@@ -151,13 +151,13 @@ printf("Super Poder: %s\n", (Superpoder1 > Superpoder2) ? "Carta 1 venceu!" :
 
     if (populacao1 > populacao2)
     {
-        printf("Carta 1 (%s) venceu!", cidade1);
+        printf("Resultado: Carta 1 (%s) venceu!", cidade1);
     }
     else{
-        printf("Carta 2 (%s) venceu!", cidade2);
+        printf("Resultado: Carta 2 (%s) venceu!", cidade2);
     }
 
-
+            //Finalizei as comparações!
 
 
 
