@@ -5,7 +5,7 @@ atualizado!
 
 Começando o Desafio!
 =================================================================================================================
-NIVEL NOVATO/AVENTUREIRO/MESTRE
+NÍVEL NOVATO/AVENTUREIRO/MESTRE
 
 1. foi adicionado a função de saida de dados no terminal! Atraves do comando "Printf"
 2. depois foi acrecentado mais funcionalidades como "scanf" e calculos utilizando operadores
