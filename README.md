@@ -12,4 +12,8 @@ NÍVEL NOVATO/AVENTUREIRO/MESTRE
 3. Por fim foram adicionados comparções entre as cartas somento utilizando entrada e saidas de dados "printf/scanf" 
 
 Começando o Desafio! TEMA 3
-================================================================================================================
+==================================================================================================================
+NÍVEL NOVATO/AVENTUREIRO
+
+1. Começo e aplicação do IF e ELSE nos codigos do nível novato melhorando as condições do programa!
+2. implementando o uso do "siwtch" no codigo
