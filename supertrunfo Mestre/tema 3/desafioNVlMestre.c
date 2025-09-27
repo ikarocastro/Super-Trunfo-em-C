@@ -12,7 +12,7 @@ int main() {                                //ALterações 25/09/2024
     float densidadepopulacional1, densidadepopulacional2;
     float pibpercapita1, pibpercapita2;
     float Superpoder1, Superpoder2; 
-    int escolhaAtributo1, escolhaAtributo2; //Variável para as comparações
+    unsigned long int escolhaAtributo1, escolhaAtributo2; //Variável para as comparações
    
                
                 //Entrada e Saida de dados da carta 1
@@ -113,7 +113,7 @@ int main() {                                //ALterações 25/09/2024
     printf("6. PIB per Capita\n");
     printf("7. SuperPoder\n");
     printf("Digite o número do atributo escolhido: ");
-    scanf("%d", &escolhaAtributo1);
+    scanf("%lu", &escolhaAtributo1);
 
     printf("\nComparando %s (carta 1) x %s (carta 2)\n", cidade1, cidade2);
 
@@ -176,6 +176,7 @@ int main() {                                //ALterações 25/09/2024
     // Segunda comparação
     
     printf("\n=== Escolha o segundo atributo para comparar (diferente do primeiro) ===\n");
+    printf("\nComparando %s (carta 1) x %s (carta 2)\n", cidade1, cidade2);
     
      printf("\n=== Escolha o atributo para comparar ===\n");
     printf("1. População\n");
@@ -186,7 +187,7 @@ int main() {                                //ALterações 25/09/2024
     printf("6. PIB per Capita\n");
     printf("7. SuperPoder\n");
     printf("Digite o número do atributo escolhido: ");
-    scanf("%d", &escolhaAtributo2);
+    scanf("%lu", &escolhaAtributo2);
 
     switch (escolhaAtributo2) {
         case 1: // População
@@ -242,8 +243,34 @@ int main() {                                //ALterações 25/09/2024
             printf("Opção inválida!\n");
             break;
     }
-        
+       
+    printf("\n === soma dos atributos ===\n");
+        // Terceira comparação - Soma dos atributos
     
+        float soma1, soma2;
+    
+    soma1 = populacao1 + area1 + pontosturisticos1 + pib1 + pibpercapita1 + (1.0 / densidadepopulacional1);
+    printf("Soma dos atributos da carta 1: %.2lf\n", soma1);
+    soma2 = populacao2 + area2 + pontosturisticos2 + pib2 + pibpercapita2 + (1.0 / densidadepopulacional2);
+    printf("Soma dos atributos da carta 2: %.2lf\n", soma2);
+        
+    if (soma1 > soma2 || soma2 > soma1)
+    {   
+        soma1 > soma2 ? printf("Carta 1 venceu com soma de atributos\n") : printf("Carta 2 venceu com soma de atributos\n");
+
+    }else if (soma1 == soma2){
+        
+     printf("Empate na soma dos atributos\n");
+        
+    }else{
+        
+        printf("Erro na soma dos atributos\n");
+        
+    }
+    
+    //soma2 = populacao2 + area2 + pontosturisticos2 + pib2 + pibpercapita2 + (1.0 / densidadepopulacional2);  
+    //printf("Soma dos atributos da carta 2: %.2f\n", soma);
+    //exibição das comparações no terminal
 
     return 0;
 }
